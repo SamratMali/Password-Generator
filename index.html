@@ -15,7 +15,7 @@
           class="display"
           data-passwordDisplay
         />
-        <button>
+        <button data-copy>
           <span data-copyMsg></span>
           <img src="" alt="copy" width="23" height="23" />
         </button>
@@ -49,13 +49,22 @@
 
       <div>
         <input type="checkbox" name="" id="number" />
-        <label for="number">Includes number letters</label>
+        <label for="number">Includes number</label>
       </div>
 
       <div>
         <input type="checkbox" name="" id="symbols" />
-        <label for="symbols">Includes symbols letters</label>
+        <label for="symbols">Includes symbols</label>
       </div>
+
+      <!-- strength section -->
+      <div class="strength-container">
+        <p>Strength</p>
+        <div data-indicator></div>
+      </div>
+      <!-- generate password -->
+      <button class="generateButton">Generate Password</button>
     </div>
   </body>
+  <script src="script.js"></script>
 </html>
