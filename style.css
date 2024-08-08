@@ -140,6 +140,9 @@ h1 {
   font-weight: 600;
   font-size: 1.25rem;
 }
+.generateButton:hover {
+  cursor: pointer;
+}
 
 .check {
   display: flex;
@@ -199,6 +202,9 @@ h1 {
   background: transparent;
   border: none;
   outline: none;
+}
+.copyBtn:hover {
+  cursor: pointer;
 }
 .slider {
   appearance: none;
