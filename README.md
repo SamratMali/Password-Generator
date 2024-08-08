@@ -3,6 +3,8 @@ https://samratmali.github.io/Password-Generator/
 
 
 # Password Generator
+![image](https://github.com/user-attachments/assets/8aba3678-e95d-4439-ac43-62a8313b0134)
+
 
 ## Overview
 
